@@ -13,7 +13,18 @@
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>/post/hello/</guid>
-      <description>Nothing here yet.</description>
+      <description>After half a day of tinkering, this thing is up and running on Github Pages.
+Stay tuned for more!</description>
+    </item>
+    
+    <item>
+      <title>JohnnyGuitar NVSE</title>
+      <link>/mods/johnnyguitar/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/mods/johnnyguitar/</guid>
+      <description>JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.
+Script Functions  150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more. Complete list of added functions with documentation and examples can be found on GECK Wiki.  New features  Runtime Editor IDs: GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions.</description>
     </item>
     
     <item>
