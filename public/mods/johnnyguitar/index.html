@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>JohnnyGuitar NVSE :: c6&#39;s stuff</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.
+Script Functions  150&#43; new functions and 10&#43; event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more. Complete list of added functions with documentation and examples can be found on GECK Wiki.  New features  Runtime Editor IDs: GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/mods/johnnyguitar/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="carxt, lStewieAl, c6" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="JohnnyGuitar NVSE :: c6&#39;s stuff">
+<meta property="og:description" content="For the one they call Johnny Guitar..." />
+<meta property="og:url" content="/mods/johnnyguitar/" />
+<meta property="og:site_name" content="JohnnyGuitar NVSE" />
+
+  <meta property="og:image" content="/img/jg/cover.jpeg">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-06-28 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    c6&#39;s stuff
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/mods">Mods</a></li>
+        
+      
+        
+          <li><a href="/post">Posts</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/mods">Mods</a></li>
+      
+    
+      
+        <li><a href="/post">Posts</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/mods/johnnyguitar/">JohnnyGuitar NVSE</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-06-28 
+      </span>
+    
+    
+    <span class="post-author">:: carxt, lStewieAl, c6</span>
+    
+  </div>
+
+  
+
+  
+    <img src="/img/jg/cover.jpeg" class="post-cover" alt="JohnnyGuitar NVSE" />
+  
+
+  
+
+  <div class="post-content"><div>
+        <p>JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.</p>
+<h4 id="script-functions">Script Functions<a href="#script-functions" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more.</li>
+<li>Complete list of added functions with documentation and examples can be found on GECK Wiki.</li>
+</ul>
+<h4 id="new-features">New features<a href="#new-features" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li><strong>Runtime Editor IDs:</strong> GECK Editor IDs can now be used in game console (e.g. &ldquo;player.additem weap10mmpistol&rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions. Additionally, Editor IDs are now displayed when you select a reference without a name in game console.</li>
+<li><strong>Custom Map Marker Icons:</strong> SetCustomMapMarkerIcon function lets you override hardcoded map marker icons with your own.</li>
+<li><strong>Level Up Menu Toggle:</strong> ToggleLevelUpMenu and IsLevelUpMenuEnabled functions let you disable or delay level up menu display.</li>
+<li><strong>Event Framework:</strong> JGCreateEvent and JGFreeEvent functions are exported to allow other plugin authors to take advantage of JohnnyGuitar&rsquo;s event system. See headers in events folder in the source code for example usage.</li>
+</ul>
+<h4 id="bugs-fixed">Bugs fixed<a href="#bugs-fixed" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>These fixes do not conflict with identical fixes in other NVSE plugins. Optional fixes enabled in JohnnyGuitar.ini are marked with *.</p>
+<ul>
+<li><strong>Rapid Reload fix:</strong> Reload and holster speed are now correctly recalculated after loading a save.</li>
+<li><strong>Disintegrations Stat fix:</strong> &ldquo;Disintegrations&rdquo; stat no longer increases upon entering a cell containing an ash pile.</li>
+<li><strong>Water Consumed fix:</strong> &ldquo;Water Consumed&rdquo; stat now increments properly.</li>
+<li><strong>Companion Dialogue fix:</strong> Companions are no longer rendered mute after trading with them through dialogue.</li>
+<li><strong>VATS spread fix:</strong> fNPCMaxGunWobbleAngle setting no longer affects player spread calculations in VATS.</li>
+<li><strong>Animated Dialogue fix:</strong> Dialogue topics with both animation and sound specified now correctly play animation.</li>
+<li><strong>NPC Challenge fix</strong>: NPCs no longer increment player challenges with &ldquo;Use Item&rdquo; or &ldquo;Use Item from a List&rdquo; type by equipping items.</li>
+<li><strong>Inventory Ammo Display fix:</strong> While hovering over a weapon that you don&rsquo;t have a default ammo for, item card will use a different ammo type from the inventory for ammo count, damage and DPS calculation.</li>
+<li><strong>3rd Person Camera fix:</strong> After using Vanity camera, 3rd Person camera position correctly resets.</li>
+<li>**Gun Spread Calculation fix: fWeapSkillReqPenalty setting is now used correctly.</li>
+<li>*<strong>Fake fleeing fix:</strong> NPCs will no longer flee from the player when [CAUTION] state is active but there are no enemies around.</li>
+<li>*<strong>Item Stack Count fix:</strong> Dropping a stack of more than 32000 items from inventory will no longer cause the item count to overflow into negatives, multiple item stacks will be dropped instead.</li>
+<li><strong>Weapon Biped Model Update fix</strong>:
+<ul>
+<li>Weapons that have backpacks and weapon mods will no longer create duplicates of the backpack when unequipped/equipped.</li>
+<li>Hotkeyed weapons with weapon mods will no longer force play the reequip animation.</li>
+<li>Loading a save with a weapon with weapon mods will no longer cause the projectile node to be misplaced.</li>
+<li>Reequipping any apparel while having a weapon with mods equipped will no longer cause the weapon to reequip too.</li>
+<li>Weapons with backpacks will no longer have the backpack still appear on the player or actor after using RemoveAllItems/RemoveAllTypedItems.</li>
+</ul>
+</li>
+<li><strong>Incidental Media Set fix</strong>: Incidental-type media sets now work correctly in all DLCs and mods. They were working only in FalloutNV.esm and DeadMoney.esm before.</li>
+<li>*<strong>Close Range Shooting Angle fix</strong>: NPCs now properly turn towards the player before shooting while in close range.</li>
+</ul>
+<h4 id="requirements">Requirements:<a href="#requirements" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li><a href="https://github.com/xNVSE/NVSE/releases/latest">xNVSE 6.1.6 or newer</a>﻿</li>
+</ul>
+<h4 id="downloadhttpsgithubcomcarxtjohnnyguitarnvsereleaseslatest"><a href="https://github.com/carxt/JohnnyGuitarNVSE/releases/latest">Download</a><a href="#downloadhttpsgithubcomcarxtjohnnyguitarnvsereleaseslatest" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>Created and maintained by lStewieAl, c6, and carxt, with contributions and help from jazzisparis, Nukem and korri123.</p>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+
+
+
+
+  
+</div>
+
+</body>
+</html>
