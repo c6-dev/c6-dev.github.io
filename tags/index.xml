@@ -5,6 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fnv</title>
+      <link>/tags/fnv/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fnv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fo3</title>
+      <link>/tags/fo3/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fo3/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

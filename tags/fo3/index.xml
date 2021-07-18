@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fo3 on c6&#39;s stuff</title>
+    <link>/tags/fo3/</link>
+    <description>Recent content in fo3 on c6&#39;s stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fo3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visual Objectives</title>
+      <link>/mods/visual_objectives/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/mods/visual_objectives/</guid>
+      <description>Adds visual 3D markers for current quest objectives.
+A remake of Just Visual Objectives by yvileapsis in a FOSE plugin with no performance impact.
+Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObjectives.ini file in Data/FOSE/Plugins.  Download Source code Credits:  yvileapsis ﻿for the original mod. jazzisparis﻿, luthien ﻿and lStewieAl ﻿for their work reverse-engineering New Vegas, which was essential for porting this mod. carxt ﻿for their implementation of WorldToScreen.</description>
+    </item>
+    
+    <item>
+      <title>No Muzzle Flash Lights</title>
+      <link>/mods/no_muzzle_flash_lights/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/mods/no_muzzle_flash_lights/</guid>
+      <description>A simple mod that improves game performance in combat by disabling lights cast on the environment by muzzle flashes, which are very performance heavy in New Vegas and Fallout 3.
+The mod can be anywhere in your load order.
+Download links:
+ New Vegas (requires JohnnyGuitar NVSE) Fallout 3 (requires Command Extender)  </description>
+    </item>
+    
+  </channel>
+</rss>
