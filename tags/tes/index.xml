@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tes on c6&#39;s stuff</title>
+    <link>/tags/tes/</link>
+    <description>Recent content in tes on c6&#39;s stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discord Rich Presence (OBSE)</title>
+      <link>/mods/rich_presence/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/mods/rich_presence/</guid>
+      <description>Integrates Discord Rich Presence in TES IV: Oblivion, displaying stats and your in-game actions on your Discord profile, such as:
+ Which menu you&amp;rsquo;re currently in (paused, lockpicking, trading, sleeping, spellmaking, inventory, alchemy, enchanting, reading a book, or in main menu). Character name, race, location, level, health and amount of gold. Which character you are talking to or trading with. Time played.  Everything can be toggled by setting the relevant settings to 0 (off) or 1 (on) in discordrpc_obse.</description>
+    </item>
+    
+  </channel>
+</rss>

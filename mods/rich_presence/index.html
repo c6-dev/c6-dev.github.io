@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Discord Rich Presence (OBSE) :: c6&#39;s stuff</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Integrates Discord Rich Presence in TES IV: Oblivion, displaying stats and your in-game actions on your Discord profile, such as:
+ Which menu you&amp;rsquo;re currently in (paused, lockpicking, trading, sleeping, spellmaking, inventory, alchemy, enchanting, reading a book, or in main menu). Character name, race, location, level, health and amount of gold. Which character you are talking to or trading with. Time played.  Everything can be toggled by setting the relevant settings to 0 (off) or 1 (on) in discordrpc_obse." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/mods/rich_presence/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="c6, lStewieAl, llde" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Discord Rich Presence (OBSE) :: c6&#39;s stuff">
+<meta property="og:description" content="Integrates Discord Rich Presence in TES IV: Oblivion. " />
+<meta property="og:url" content="/mods/rich_presence/" />
+<meta property="og:site_name" content="Discord Rich Presence (OBSE)" />
+
+  <meta property="og:image" content="/img/drp/cover.png">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-07-12 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    c6&#39;s stuff
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/mods">Mods</a></li>
+        
+      
+        
+          <li><a href="/post">Posts</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/mods">Mods</a></li>
+      
+    
+      
+        <li><a href="/post">Posts</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/mods/rich_presence/">Discord Rich Presence (OBSE)</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        12.07.2020 
+      </span>
+    
+    
+    <span class="post-author">:: c6, lStewieAl, llde</span>
+    
+	
+    <span class="post-version">:: 1.2</span>
+    
+  
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/tes/">tes</a>&nbsp;
+    
+  </span>
+  
+  </div>
+  
+    <img src="/img/drp/cover.png" class="post-cover" alt="Discord Rich Presence (OBSE)" />
+  
+
+  
+
+  <div class="post-content"><div>
+        <p>Integrates Discord Rich Presence in TES IV: Oblivion, displaying stats and your in-game actions on your Discord profile, such as:</p>
+<ul>
+<li>Which menu you&rsquo;re currently in (paused, lockpicking, trading, sleeping, spellmaking, inventory, alchemy, enchanting, reading a book, or in main menu).</li>
+<li>Character name, race, location, level, health and amount of gold.</li>
+<li>Which character you are talking to or trading with.</li>
+<li>Time played.</li>
+</ul>
+
+  <img src="/img/drp/demo.png"  alt="Example"  class="center"  style="max-width: 350px"  />
+
+
+<p>Everything can be toggled by setting the relevant settings to 0 (off) or 1 (on) in <strong>discordrpc_obse.ini</strong>.</p>
+<p>Rich Presence is updated once every 15 seconds.</p>
+<h4 id="requirements">Requirements:<a href="#requirements" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li><a href="https://aka.ms/vs/16/release/vc_redist.x86.exe">Visual C++ 2015 redist</a></li>
+<li><a href="https://github.com/llde/xOBSE/releases/latest">OBSE﻿</a></li>
+<li>Desktop Discord client (web client won&rsquo;t work)</li>
+<li>Game Activity enabled in Discord settings</li>
+</ul>
+<h4 id="installation">Installation:<a href="#installation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>Unpack the archive to Oblivion game folder. You should have <strong>discord-rpc.dll</strong> in main folder and <strong>discordrpc_obse.dll and .ini</strong> in <strong>Data/OBSE/Plugins.</strong> To uninstall, delete these files.</p>
+<h4 id="credits">Credits:<a href="#credits" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li>Discord for Discord RPC library kindly provided on <a href="https://github.com/discordapp/discord-rpc">GitHub﻿</a></li>
+<li>OBSE team for Oblivion Script Extender</li>
+<li><a href="https://www.nexusmods.com/users/2232669">lStewieAl</a> for fixing my noob mistakes</li>
+<li><a href="https://www.nexusmods.com/users/1902248">llde</a> for xOBSE and mprovements in version 1.2</li>
+</ul>
+<h4 id="see-also">See also:<a href="#see-also" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<ul>
+<li><a href="https://www.nexusmods.com/newvegas/mods/68976">Rich Presence for New Vegas</a></li>
+<li><a href="https://www.nexusmods.com/fallout3/mods/23683">Rich Presence for Fallout 3</a></li>
+</ul>
+<h4 id="downloadmodrpc_oblivion7z"><a href="/mod/RPC_Oblivion.7z">Download</a><a href="#downloadmodrpc_oblivion7z" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<h4 id="source-codehttpsgithubcomlldediscord-rich-presence-obse"><a href="https://github.com/llde/Discord-Rich-Presence-OBSE">Source code</a><a href="#source-codehttpsgithubcomlldediscord-rich-presence-obse" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+
+
+
+
+  
+</div>
+
+</body>
+</html>

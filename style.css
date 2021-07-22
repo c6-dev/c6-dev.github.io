@@ -11,3 +11,13 @@
 	margin-bottom: 10px;
 	color: rgba(255, 168, 106, 0.7)
 }
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	max-width: 900px;
+	min-height: 100vh;
+	border-right: 1px solid hsla(0, 0%, 100%, .1)
+}
+
