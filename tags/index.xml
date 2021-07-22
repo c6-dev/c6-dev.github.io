@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on c6&#39;s stuff</title>
-    <link>/tags/</link>
+    <link>c6-dev.github.io/tags/</link>
     <description>Recent content in Tags on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="c6-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fnv</title>
-      <link>/tags/fnv/</link>
+      <link>c6-dev.github.io/tags/fnv/</link>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/fnv/</guid>
+      <guid>c6-dev.github.io/tags/fnv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fo3</title>
-      <link>/tags/fo3/</link>
+      <link>c6-dev.github.io/tags/fo3/</link>
       <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/fo3/</guid>
+      <guid>c6-dev.github.io/tags/fo3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tes</title>
-      <link>/tags/tes/</link>
+      <link>c6-dev.github.io/tags/tes/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tes/</guid>
+      <guid>c6-dev.github.io/tags/tes/</guid>
       <description></description>
     </item>
     
