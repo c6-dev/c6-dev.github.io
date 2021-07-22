@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>c6-dev.github.io/</loc>
+    <loc>https://c6-dev.github.io/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/post/hello/</loc>
+    <loc>https://c6-dev.github.io/post/hello/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/post/</loc>
+    <loc>https://c6-dev.github.io/post/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/tags/fnv/</loc>
+    <loc>https://c6-dev.github.io/tags/fnv/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/mods/johnnyguitar/</loc>
+    <loc>https://c6-dev.github.io/mods/johnnyguitar/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/mods/</loc>
+    <loc>https://c6-dev.github.io/mods/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/tags/</loc>
+    <loc>https://c6-dev.github.io/tags/</loc>
     <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/mods/yup/</loc>
+    <loc>https://c6-dev.github.io/mods/yup/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/tags/fo3/</loc>
+    <loc>https://c6-dev.github.io/tags/fo3/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/mods/visual_objectives/</loc>
+    <loc>https://c6-dev.github.io/mods/visual_objectives/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/mods/aidui/</loc>
+    <loc>https://c6-dev.github.io/mods/aidui/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/mods/rich_presence/</loc>
+    <loc>https://c6-dev.github.io/mods/rich_presence/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/tags/tes/</loc>
+    <loc>https://c6-dev.github.io/tags/tes/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/mods/tetris/</loc>
+    <loc>https://c6-dev.github.io/mods/tetris/</loc>
     <lastmod>2020-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/mods/no_muzzle_flash_lights/</loc>
+    <loc>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>c6-dev.github.io/categories/</loc>
+    <loc>https://c6-dev.github.io/categories/</loc>
   </url>
 </urlset>
