@@ -6,7 +6,20 @@
     <description>Recent content in Mods on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/mods/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/mods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AidUI</title>
+      <link>https://c6-dev.github.io/mods/aidui/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/mods/aidui/</guid>
+      <description>Update 24.09.21 - Uploaded a temporary fix for icons suddenly going missing. The whole mod desperately needs a rewrite at some point.
+Active Ingestibles Duration UI or AidUI adds a HUD for consumed Aid items that shows the time until their effects run out.
+The .ini with some configuration options is available in Data/Config/AidUI/AidUI.ini. By default, only Chems are enabled.
+Comes with MCM support thanks to TommInfinite.
+div.gallery {display: flex;flex-wrap: wrap;}div.</description>
+    </item>
+    
     <item>
       <title>JohnnyGuitar NVSE</title>
       <link>https://c6-dev.github.io/mods/johnnyguitar/</link>
@@ -37,18 +50,6 @@ Inspired by Get Fucked (NVSE) and GaryGaryGary.
       <description>Adds visual 3D markers for current quest objectives.
 A remake of Just Visual Objectives by yvileapsis in a FOSE plugin with no performance impact.
 Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObjectives.ini file in Data/FOSE/Plugins.  Download Source code Credits:  yvileapsis ﻿for the original mod. jazzisparis﻿, luthien ﻿and lStewieAl ﻿for their work reverse-engineering New Vegas, which was essential for porting this mod. carxt ﻿for their implementation of WorldToScreen.</description>
-    </item>
-    
-    <item>
-      <title>AidUI</title>
-      <link>https://c6-dev.github.io/mods/aidui/</link>
-      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://c6-dev.github.io/mods/aidui/</guid>
-      <description>Active Ingestibles Duration UI or AidUI adds a HUD for consumed Aid items that shows the time until their effects run out.
-The .ini with some configuration options is available in Data/Config/AidUI/AidUI.ini. By default, only Chems are enabled.
-Comes with MCM support thanks to TommInfinite.
-div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img { height: 200px;object-fit: cover;flex-grow: 1;}     Requirements:  NVSE﻿ UIO JIP LN NVSE﻿ JohnnyGuitar NVSE﻿ MCM  Known issues:  Some icons are off-centered - the mod uses vanilla inventory icons, i can&amp;rsquo;t prevent it on my side.</description>
     </item>
     
     <item>

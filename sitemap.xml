@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://c6-dev.github.io/tags/fnv/</loc>
-    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
+    <loc>https://c6-dev.github.io/mods/aidui/</loc>
+    <lastmod>2021-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://c6-dev.github.io/mods/johnnyguitar/</loc>
-    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
+    <loc>https://c6-dev.github.io/tags/fnv/</loc>
+    <lastmod>2021-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://c6-dev.github.io/mods/</loc>
-    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://c6-dev.github.io/tags/</loc>
+    <lastmod>2021-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://c6-dev.github.io/mods/johnnyguitar/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://c6-dev.github.io/</loc>
@@ -25,9 +28,6 @@
   </url><url>
     <loc>https://c6-dev.github.io/mods/visual_objectives/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://c6-dev.github.io/mods/aidui/</loc>
-    <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://c6-dev.github.io/mods/rich_presence/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
