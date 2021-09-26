@@ -6,7 +6,18 @@
     <description>Recent content in Mods on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/mods/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/mods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Muzzle Flash Lights</title>
+      <link>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</guid>
+      <description>A simple mod that improves game performance in combat by disabling lights cast on the environment by muzzle flashes, which are very performance heavy in New Vegas and Fallout 3.
+The mod can be anywhere in your load order.
+New Vegas version does not take up a slot in the load order and comes with an .ini file in config/NMFL folder. By default, it only disables the lights for NPCs and leaves them on for the player.</description>
+    </item>
+    
     <item>
       <title>AidUI</title>
       <link>https://c6-dev.github.io/mods/aidui/</link>
@@ -70,18 +81,6 @@ Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObje
       <guid>https://c6-dev.github.io/mods/tetris/</guid>
       <description>Feature-complete implementation of Tetris in New Vegas, playable in your Pip-Boy.
 div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img { height: 200px;object-fit: cover;flex-grow: 1;}     Requirements:  NVSE﻿ UIO JIP LN NVSE﻿ JohnnyGuitar NVSE﻿  How to play: Pick up a cartridge on a table near a terminal in Prospector Saloon in Goodsprings.</description>
-    </item>
-    
-    <item>
-      <title>No Muzzle Flash Lights</title>
-      <link>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</guid>
-      <description>A simple mod that improves game performance in combat by disabling lights cast on the environment by muzzle flashes, which are very performance heavy in New Vegas and Fallout 3.
-The mod can be anywhere in your load order.
-Download links:
- New Vegas (requires JohnnyGuitar NVSE) Fallout 3 (requires Command Extender)  </description>
     </item>
     
   </channel>

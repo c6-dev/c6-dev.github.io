@@ -6,7 +6,18 @@
     <description>Recent content in fo3 on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/tags/fo3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/tags/fo3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Muzzle Flash Lights</title>
+      <link>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</guid>
+      <description>A simple mod that improves game performance in combat by disabling lights cast on the environment by muzzle flashes, which are very performance heavy in New Vegas and Fallout 3.
+The mod can be anywhere in your load order.
+New Vegas version does not take up a slot in the load order and comes with an .ini file in config/NMFL folder. By default, it only disables the lights for NPCs and leaves them on for the player.</description>
+    </item>
+    
     <item>
       <title>Visual Objectives</title>
       <link>https://c6-dev.github.io/mods/visual_objectives/</link>
@@ -16,18 +27,6 @@
       <description>Adds visual 3D markers for current quest objectives.
 A remake of Just Visual Objectives by yvileapsis in a FOSE plugin with no performance impact.
 Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObjectives.ini file in Data/FOSE/Plugins.  Download Source code Credits:  yvileapsis ﻿for the original mod. jazzisparis﻿, luthien ﻿and lStewieAl ﻿for their work reverse-engineering New Vegas, which was essential for porting this mod. carxt ﻿for their implementation of WorldToScreen.</description>
-    </item>
-    
-    <item>
-      <title>No Muzzle Flash Lights</title>
-      <link>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://c6-dev.github.io/mods/no_muzzle_flash_lights/</guid>
-      <description>A simple mod that improves game performance in combat by disabling lights cast on the environment by muzzle flashes, which are very performance heavy in New Vegas and Fallout 3.
-The mod can be anywhere in your load order.
-Download links:
- New Vegas (requires JohnnyGuitar NVSE) Fallout 3 (requires Command Extender)  </description>
     </item>
     
   </channel>
