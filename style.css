@@ -21,3 +21,10 @@
 	border-right: 1px solid hsla(0, 0%, 100%, .1)
 }
 
+.footer__inner {
+	width: auto
+}
+
+.socials {
+	font-size: 1rem
+}
