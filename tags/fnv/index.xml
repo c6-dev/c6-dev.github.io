@@ -15,6 +15,90 @@
       <guid>https://c6-dev.github.io/mods/aidui/</guid>
       <description>Active Ingestibles Duration UI or AidUI adds widgets on HUD for consumed Aid items that display the time until their effects run out.
 div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img { height: 200px;object-fit: cover;flex-grow: 1;}     Includes MCM options for changing size of widgets, their position, and Bars mode.</description>
+      <content>&lt;p&gt;Active Ingestibles Duration UI or AidUI adds widgets on HUD for consumed Aid items that display the time until their effects run out.&lt;/p&gt;
+&lt;style&gt;
+  div.gallery {
+     display: flex;
+     flex-wrap: wrap;
+  }
+        div.gallery a {
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 2px;
+            display: flex;
+        }
+
+        div.gallery a img {            
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+        }
+
+    &lt;/style&gt;
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css&#34; /&gt;
+
+    &lt;div class=&#34;gallery&#34;&gt;
+        
+	
+
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/aidui/gallery/demo0.png&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/aidui/gallery/demo0-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/aidui/gallery/demo1.png&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/aidui/gallery/demo1-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/aidui/gallery/demo2.png&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/aidui/gallery/demo2-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/aidui/gallery/demo3.png&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/aidui/gallery/demo3-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+    &lt;/div&gt;
+&lt;p&gt;Includes MCM options for changing size of widgets, their position, and Bars mode.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/E6ylPog6usk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;AidUI&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xNVSE/NVSE/releases/latest&#34;&gt;xNVSE&lt;/a&gt;﻿&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/57174&#34;&gt;UIO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/58277&#34;&gt;JIP LN NVSE﻿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/carxt/JohnnyGuitarNVSE/releases/latest&#34;&gt;JohnnyGuitar NVSE﻿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/42507&#34;&gt;MCM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;known-issues&#34;&gt;Known issues:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Some icons are off-centered - the mod uses vanilla inventory icons, i can&amp;rsquo;t prevent it on my side. Bars mode does not have this problem.&lt;/li&gt;
+&lt;li&gt;After drinking several different alcoholic beverages only one icon is displayed - the game treats them as a single item if their effects are identical.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;update-20-30092021&#34;&gt;Update 2.0 30.09.2021:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A clean save is recommended for this update.&lt;/li&gt;
+&lt;li&gt;Rewrote the entire mod using latest xNVSE features&lt;/li&gt;
+&lt;li&gt;Ditched .ini config in favor of a redesigned MCM menu&lt;/li&gt;
+&lt;li&gt;Added scale option&lt;/li&gt;
+&lt;li&gt;Added Bars mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;downloadmodaidui_207z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/AidUI_2.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;credits&#34;&gt;Credits:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/3502667&#34;&gt;hitman47101&lt;/a&gt; ﻿for the idea&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/28073420&#34;&gt;TommInfinite&lt;/a&gt; ﻿for the MCM prior to 2.0 update&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/1417653&#34;&gt;Xilandro&lt;/a&gt; for helping me learn XML&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
     <item>
@@ -25,6 +109,41 @@
       <guid>https://c6-dev.github.io/mods/three_perk_bounty/</guid>
       <description>I&amp;rsquo;ve always felt overwhelmed with a long list of perks the game throws at you on level up, and found myself spending a long time trying to decide which perk to take. This mod attempts to solve that problem.
 Upon level up you will be presented with a choice of three randomly selected perks from the available perk pool. You will also have an option to re-roll the random selection up to three times, but that carries a chance of giving you an unlucky perk active until next level (Luck over 5 improves your chances a bit).</description>
+      <content>&lt;p&gt;I&amp;rsquo;ve always felt overwhelmed with a long list of perks the game throws at you on level up, and found myself spending a long time trying to decide which perk to take. This mod attempts to solve that problem.&lt;/p&gt;
+
+  &lt;img src=&#34;https://c6-dev.github.io/img/tpb/demo.jpg&#34;  alt=&#34;In-game example&#34;  class=&#34;center&#34;  style=&#34;border-radius: 4px;&#34;  /&gt;
+
+
+&lt;p&gt;Upon level up you will be presented with a choice of three randomly selected perks from the available perk pool. You will also have an option to re-roll the random selection up to three times, but that carries a chance of giving you an unlucky perk active until next level (Luck over 5 improves your chances a bit).&lt;br&gt;
+There is also an .ini that lets you completely exclude up to 5 perks from ever appearing.&lt;/p&gt;
+&lt;p&gt;Comes with full controller support, as shown in the video below.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/neE_L16ALno&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;Three-perk Bounty&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;controls&#34;&gt;Controls:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;PC: Mouse controls only, mousewheel scrolls perk description being hovered over.&lt;/li&gt;
+&lt;li&gt;Controller: &lt;strong&gt;Dpad Left/Right&lt;/strong&gt; - perk selection, &lt;strong&gt;Up/Down&lt;/strong&gt; - scroll description of a selected perk, &lt;strong&gt;Y&lt;/strong&gt; - reroll, &lt;strong&gt;A&lt;/strong&gt; - accept selection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;known-issues&#34;&gt;Known issues:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Pressing &lt;strong&gt;E&lt;/strong&gt; or &lt;strong&gt;Tab&lt;/strong&gt; while in perk menu breaks it - these keys control hardcoded functions in the perk menu and i haven&amp;rsquo;t found a way to get around that yet. To be safe, use either a mouse or a controller as described above to navigate new menu.&lt;/li&gt;
+&lt;li&gt;The mod currently does not handle cases where you have less than three perks available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xNVSE/NVSE/releases/latest&#34;&gt;xNVSE 6.2.4 or newer&lt;/a&gt;﻿&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/58277&#34;&gt;JIP LN NVSE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/carxt/JohnnyGuitarNVSE/releases/latest&#34;&gt;JohnnyGuitar NVSE 4.10 or newer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/57174&#34;&gt;UIO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.moddb.com/mods/vanilla-ui-plus&#34;&gt;Vanilla UI Plus&lt;/a&gt; - sorry, no DarnUI support yet.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/65046&#34;&gt;Consistent Pip-Boy Icons&lt;/a&gt; - not strictly required, but highly recommended.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;downloadmodthreeperkbounty_097z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/ThreePerkBounty_0.9.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;P.S. The mod is in beta phase, expect some bugs.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -35,6 +154,53 @@ Upon level up you will be presented with a choice of three randomly selected per
       <guid>https://c6-dev.github.io/mods/johnnyguitar/</guid>
       <description>JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.
 Script Functions  150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more. Complete list of added functions with documentation and examples can be found on GECK Wiki.  New features  Runtime Editor IDs: GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions.</description>
+      <content>&lt;p&gt;JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.&lt;/p&gt;
+&lt;h4 id=&#34;script-functions&#34;&gt;Script Functions&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more.&lt;/li&gt;
+&lt;li&gt;Complete list of added functions with documentation and examples can be found on GECK Wiki.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;new-features&#34;&gt;New features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Runtime Editor IDs:&lt;/strong&gt; GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions. Additionally, Editor IDs are now displayed when you select a reference without a name in game console.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Map Marker Icons:&lt;/strong&gt; SetCustomMapMarkerIcon function lets you override hardcoded map marker icons with your own.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Level Up Menu Toggle:&lt;/strong&gt; ToggleLevelUpMenu and IsLevelUpMenuEnabled functions let you disable or delay level up menu display.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Event Framework:&lt;/strong&gt; JGCreateEvent and JGFreeEvent functions are exported to allow other plugin authors to take advantage of JohnnyGuitar&amp;rsquo;s event system. See headers in events folder in the source code for example usage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bugs-fixed&#34;&gt;Bugs fixed&lt;/h4&gt;
+&lt;p&gt;These fixes do not conflict with identical fixes in other NVSE plugins. Optional fixes enabled in JohnnyGuitar.ini are marked with *.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rapid Reload fix:&lt;/strong&gt; Reload and holster speed are now correctly recalculated after loading a save.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disintegrations Stat fix:&lt;/strong&gt; &amp;ldquo;Disintegrations&amp;rdquo; stat no longer increases upon entering a cell containing an ash pile.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Water Consumed fix:&lt;/strong&gt; &amp;ldquo;Water Consumed&amp;rdquo; stat now increments properly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Companion Dialogue fix:&lt;/strong&gt; Companions are no longer rendered mute after trading with them through dialogue.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VATS spread fix:&lt;/strong&gt; fNPCMaxGunWobbleAngle setting no longer affects player spread calculations in VATS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Animated Dialogue fix:&lt;/strong&gt; Dialogue topics with both animation and sound specified now correctly play animation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NPC Challenge fix&lt;/strong&gt;: NPCs no longer increment player challenges with &amp;ldquo;Use Item&amp;rdquo; or &amp;ldquo;Use Item from a List&amp;rdquo; type by equipping items.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inventory Ammo Display fix:&lt;/strong&gt; While hovering over a weapon that you don&amp;rsquo;t have a default ammo for, item card will use a different ammo type from the inventory for ammo count, damage and DPS calculation.&lt;/li&gt;
+&lt;li&gt;*&lt;strong&gt;3rd Person Camera fix:&lt;/strong&gt; After using Vanity camera, 3rd Person camera position correctly resets.&lt;/li&gt;
+&lt;li&gt;**Gun Spread Calculation fix: fWeapSkillReqPenalty setting is now used correctly.&lt;/li&gt;
+&lt;li&gt;*&lt;strong&gt;Fake fleeing fix:&lt;/strong&gt; NPCs will no longer flee from the player when [CAUTION] state is active but there are no enemies around.&lt;/li&gt;
+&lt;li&gt;*&lt;strong&gt;Item Stack Count fix:&lt;/strong&gt; Dropping a stack of more than 32000 items from inventory will no longer cause the item count to overflow into negatives, multiple item stacks will be dropped instead.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Weapon Biped Model Update fix&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Weapons that have backpacks and weapon mods will no longer create duplicates of the backpack when unequipped/equipped.&lt;/li&gt;
+&lt;li&gt;Hotkeyed weapons with weapon mods will no longer force play the reequip animation.&lt;/li&gt;
+&lt;li&gt;Loading a save with a weapon with weapon mods will no longer cause the projectile node to be misplaced.&lt;/li&gt;
+&lt;li&gt;Reequipping any apparel while having a weapon with mods equipped will no longer cause the weapon to reequip too.&lt;/li&gt;
+&lt;li&gt;Weapons with backpacks will no longer have the backpack still appear on the player or actor after using RemoveAllItems/RemoveAllTypedItems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Incidental Media Set fix&lt;/strong&gt;: Incidental-type media sets now work correctly in all DLCs and mods. They were working only in FalloutNV.esm and DeadMoney.esm before.&lt;/li&gt;
+&lt;li&gt;*&lt;strong&gt;Close Range Shooting Angle fix&lt;/strong&gt;: NPCs now properly turn towards the player before shooting while in close range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xNVSE/NVSE/releases/latest&#34;&gt;xNVSE 6.2.3 or newer&lt;/a&gt;﻿&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;downloadhttpsgithubcomcarxtjohnnyguitarnvsereleaseslatest&#34;&gt;&lt;a href=&#34;https://github.com/carxt/JohnnyGuitarNVSE/releases/latest&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Created and maintained by &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/2232669&#34;&gt;lStewieAl&lt;/a&gt;, c6, and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/31254295&#34;&gt;carxt&lt;/a&gt;, with contributions and help from &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/4716447&#34;&gt;jazzisparis&lt;/a&gt;, &lt;a href=&#34;https://www.nexusmods.com/skyrimspecialedition/users/4995023&#34;&gt;Nukem&lt;/a&gt; and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/54235967&#34;&gt;korri123&lt;/a&gt;.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -46,6 +212,19 @@ Script Functions  150+ new functions and 10+ event handlers, including WorldToSc
       <description>A simple mod that improves game performance in combat by disabling lights cast on the environment by muzzle flashes, which are very performance heavy in New Vegas and Fallout 3.
 The mod can be anywhere in your load order.
 New Vegas version does not take up a slot in the load order and comes with an .ini file in config/NMFL folder. By default, it only disables the lights for NPCs and leaves them on for the player.</description>
+      <content>&lt;p&gt;A simple mod that improves game performance in combat by disabling lights cast on the environment by muzzle flashes, which are very performance heavy in New Vegas and Fallout 3.&lt;/p&gt;
+
+  &lt;img src=&#34;https://c6-dev.github.io/img/nmfl/demo_nv.png&#34;  alt=&#34;In-game example&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;p&gt;The mod can be anywhere in your load order.&lt;/p&gt;
+&lt;p&gt;New Vegas version does not take up a slot in the load order and comes with an .ini file in &lt;strong&gt;config/NMFL&lt;/strong&gt; folder. By default, it only disables the lights for NPCs and leaves them on for the player.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download links:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/NMFL-NV_2.0.7z&#34;&gt;New Vegas&lt;/a&gt; (requires &lt;a href=&#34;https://github.com/carxt/JohnnyGuitarNVSE/releases/latest&#34;&gt;JohnnyGuitar NVSE 4.10+&lt;/a&gt;, &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/58277&#34;&gt;JIP LN NVSE&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/NMFL-F3_1.0.7z&#34;&gt;Fallout 3&lt;/a&gt; (requires &lt;a href=&#34;https://www.nexusmods.com/fallout3/mods/23682&#34;&gt;Command Extender&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
     <item>
@@ -57,6 +236,68 @@ New Vegas version does not take up a slot in the load order and comes with an .i
       <description>Dynamically replaces every NPC in New Vegas with Easy Pete and their dialogue lines with &amp;ldquo;Yup&amp;rdquo;.
 Inspired by Get Fucked (NVSE) and GaryGaryGary.
 div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img { height: 200px;object-fit: cover;flex-grow: 1;}       Requirements:  xNVSE 6.0.6+﻿  Download Source code </description>
+      <content>&lt;p&gt;Dynamically replaces every NPC in New Vegas with Easy Pete and their dialogue lines with &amp;ldquo;Yup&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Inspired by &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/72619&#34;&gt;Get Fucked (NVSE)&lt;/a&gt; and &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/71944&#34;&gt;GaryGaryGary&lt;/a&gt;.&lt;/p&gt;
+&lt;style&gt;
+  div.gallery {
+     display: flex;
+     flex-wrap: wrap;
+  }
+        div.gallery a {
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 2px;
+            display: flex;
+        }
+
+        div.gallery a img {            
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+        }
+
+    &lt;/style&gt;
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css&#34; /&gt;
+
+    &lt;div class=&#34;gallery&#34;&gt;
+        
+	
+
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/yup/gallery/demo1.png&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/yup/gallery/demo1-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/yup/gallery/demo2.png&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/yup/gallery/demo2-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/yup/gallery/demo3.png&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/yup/gallery/demo3-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/yup/gallery/demo4.png&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/yup/gallery/demo4-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+    &lt;/div&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Rj_l6YuWDkk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;Easy Pete&amp;#39;s therapy session&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xNVSE/NVSE/releases/latest&#34;&gt;xNVSE 6.0.6+&lt;/a&gt;﻿&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;downloadmodyup_107z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/Yup_1.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;source-codemodyup_src7z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/Yup_src.7z&#34;&gt;Source code&lt;/a&gt;&lt;/h4&gt;
+</content>
     </item>
     
     <item>
@@ -67,6 +308,86 @@ Inspired by Get Fucked (NVSE) and GaryGaryGary.
       <guid>https://c6-dev.github.io/mods/tetris/</guid>
       <description>Feature-complete implementation of Tetris in New Vegas, playable in your Pip-Boy.
 div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img { height: 200px;object-fit: cover;flex-grow: 1;}     Requirements:  xNVSE 6.2.4 or newer﻿ UIO JIP LN NVSE﻿ JohnnyGuitar NVSE﻿  How to play: Pick up a cartridge on a table near a terminal in Prospector Saloon in Goodsprings.</description>
+      <content>&lt;p&gt;Feature-complete implementation of Tetris in New Vegas, playable in your Pip-Boy.&lt;/p&gt;
+&lt;style&gt;
+  div.gallery {
+     display: flex;
+     flex-wrap: wrap;
+  }
+        div.gallery a {
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 2px;
+            display: flex;
+        }
+
+        div.gallery a img {            
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+        }
+
+    &lt;/style&gt;
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css&#34; /&gt;
+
+    &lt;div class=&#34;gallery&#34;&gt;
+        
+	
+
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/tetris/gallery/demo.jpeg&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/tetris/gallery/demo-thumb.jpeg&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/tetris/gallery/demo2.jpeg&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/tetris/gallery/demo2-thumb.jpeg&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/tetris/gallery/demo3.jpeg&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/tetris/gallery/demo3-thumb.jpeg&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://c6-dev.github.io/img/tetris/gallery/location.jpeg&#34; target=&#34;_blank&#34;&gt;
+                &lt;img src=&#34;https://c6-dev.github.io/img/tetris/gallery/location-thumb.jpeg&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+    &lt;/div&gt;
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xNVSE/NVSE/releases/latest&#34;&gt;xNVSE 6.2.4 or newer&lt;/a&gt;﻿&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/57174&#34;&gt;UIO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/58277&#34;&gt;JIP LN NVSE﻿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/carxt/JohnnyGuitarNVSE/releases/latest&#34;&gt;JohnnyGuitar NVSE﻿&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;how-to-play&#34;&gt;How to play:&lt;/h4&gt;
+&lt;p&gt;Pick up a cartridge on a table near a terminal in Prospector Saloon in Goodsprings. You can also use a console command &lt;strong&gt;player.additem XX00442A&lt;/strong&gt;, where &lt;strong&gt;XX&lt;/strong&gt; is mod&amp;rsquo;s index in the load order. After that, just click on the Tetris in the Misc tab of your inventory.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keyboard controls are:&lt;/strong&gt; Arrow Left/Right/Down to move the block, Arrow Up to rotate the block, Spacebar to pause, and Q to quit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Xbox controller bindings are:&lt;/strong&gt; D-pad Left/Right/Down to move the block, D-pad Up to rotate the block, Right Thumbstick to pause, and X to quit.&lt;/p&gt;
+&lt;p&gt;Blocks fall down every 900 ms by default, speed increases by 10% every level.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/uIkpipFozFY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;Tetris&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;downloadmodtetris_207z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/Tetris_2.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Update 2.0 28.09.21 - rewrote scripts using latest xNVSE features, optimized things here and there.&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;huge-thanks-to&#34;&gt;Huge thanks to:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;NVSE team for New Vegas Script Extender&lt;/li&gt;
+&lt;li&gt;xNVSE team for keeping it alive&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/4716447&#34;&gt;jazzisparis&lt;/a&gt; for their work on JIP LN NVSE and UIO&lt;/li&gt;
+&lt;li&gt;PotatoPeeler for their &lt;a href=&#34;https://sketchfab.com/3d-models/tetris-nes-cartridge-e57109035e194c919eb728a83b0a54a5&#34;&gt;Tetris NES Cartridge model&lt;/a&gt;, and conor96 for porting it to New Vegas&lt;/li&gt;
+&lt;li&gt;ZuTheSkunk for &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/65589/&#34;&gt;FNV Icon Tutorial﻿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Michael James Williams for their &lt;a href=&#34;https://gamedevelopment.tutsplus.com/series/implementing-tetris--gamedev-12717&#34;&gt;Implementing Tetris&lt;/a&gt; tutorial series&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/Users/78355343&#34;&gt;AVeryUncreativeUsername&lt;/a&gt; ﻿for helping me playtest this thing&lt;/li&gt;
+&lt;li&gt;And, of course, &lt;a href=&#34;https://en.wikipedia.org/wiki/Alexey_Pajitnov&#34;&gt;Alexey Pajitnov&lt;/a&gt; for the game we all know and love.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
   </channel>
