@@ -8,6 +8,43 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Visual Objectives</title>
+      <link>https://c6-dev.github.io/mods/visual_objectives/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/mods/visual_objectives/</guid>
+      <description>Adds visual 3D markers for current quest objectives.
+A remake of Just Visual Objectives by yvileapsis in a FOSE plugin with no performance impact.
+Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObjectives.ini file in Data/FOSE/Plugins.  Download Update 1.5 04.11.21 - fixed issues with markers not disappearing when they should, i.e. when controls are disabled. Fixed vanilla bug with custom map markers which didn&amp;rsquo;t work in many parts of the map.</description>
+      <content>&lt;p&gt;Adds visual 3D markers for current quest objectives.&lt;/p&gt;
+&lt;p&gt;A remake of &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/66901&#34;&gt;Just Visual Objectives&lt;/a&gt; by yvileapsis in a FOSE plugin with no performance impact.&lt;/p&gt;
+
+  &lt;img src=&#34;https://c6-dev.github.io/img/vo/demo.gif&#34;  alt=&#34;In-game example&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://fose.silverlock.org/&#34;&gt;FOSE 1.3b2&lt;/a&gt;﻿&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/fallout3/mods/23682&#34;&gt;Command Extender&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;configuration&#34;&gt;Configuration:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Edit &lt;strong&gt;F3VisualObjectives.ini&lt;/strong&gt; file in &lt;strong&gt;Data/FOSE/Plugins&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;downloadmodf3vo_157z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/F3VO_1.5.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Update 1.5 04.11.21 - fixed issues with markers not disappearing when they should, i.e. when controls are disabled. Fixed vanilla bug with custom map markers which didn&amp;rsquo;t work in many parts of the map.&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;source-codehttpsgithubcomc6-devvisualobjectivesfose&#34;&gt;&lt;a href=&#34;https://github.com/c6-dev/VisualObjectivesFOSE&#34;&gt;Source code&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;credits&#34;&gt;Credits:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/53378266&#34;&gt;yvileapsis&lt;/a&gt; ﻿for the original mod.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/4716447&#34;&gt;jazzisparis&lt;/a&gt;﻿, &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/1372985&#34;&gt;luthien&lt;/a&gt; ﻿and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/2232669&#34;&gt;lStewieAl&lt;/a&gt; ﻿for their work reverse-engineering New Vegas, which was essential for porting this mod.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/31254295&#34;&gt;carxt&lt;/a&gt; ﻿for their implementation of WorldToScreen.&lt;/li&gt;
+&lt;li&gt;lStewieAl ﻿(again) for their work on Command Extender and always being very helpful in general.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>AidUI</title>
       <link>https://c6-dev.github.io/mods/aidui/</link>
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
@@ -297,42 +334,6 @@ Inspired by Get Fucked (NVSE) and GaryGaryGary.
 &lt;/ul&gt;
 &lt;h4 id=&#34;downloadmodyup_107z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/Yup_1.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
 &lt;h4 id=&#34;source-codemodyup_src7z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/Yup_src.7z&#34;&gt;Source code&lt;/a&gt;&lt;/h4&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Visual Objectives</title>
-      <link>https://c6-dev.github.io/mods/visual_objectives/</link>
-      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://c6-dev.github.io/mods/visual_objectives/</guid>
-      <description>Adds visual 3D markers for current quest objectives.
-A remake of Just Visual Objectives by yvileapsis in a FOSE plugin with no performance impact.
-Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObjectives.ini file in Data/FOSE/Plugins.  Download Source code Credits:  yvileapsis ﻿for the original mod. jazzisparis﻿, luthien ﻿and lStewieAl ﻿for their work reverse-engineering New Vegas, which was essential for porting this mod. carxt ﻿for their implementation of WorldToScreen.</description>
-      <content>&lt;p&gt;Adds visual 3D markers for current quest objectives.&lt;/p&gt;
-&lt;p&gt;A remake of &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/66901&#34;&gt;Just Visual Objectives&lt;/a&gt; by yvileapsis in a FOSE plugin with no performance impact.&lt;/p&gt;
-
-  &lt;img src=&#34;https://c6-dev.github.io/img/vo/demo.gif&#34;  alt=&#34;In-game example&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
-
-
-&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://fose.silverlock.org/&#34;&gt;FOSE 1.3b2&lt;/a&gt;﻿&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/fallout3/mods/23682&#34;&gt;Command Extender&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;configuration&#34;&gt;Configuration:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Edit &lt;strong&gt;F3VisualObjectives.ini&lt;/strong&gt; file in &lt;strong&gt;Data/FOSE/Plugins&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;downloadmodf3vo_147z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/F3VO_1.4.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id=&#34;source-codehttpsgithubcomc6-devvisualobjectivesfose&#34;&gt;&lt;a href=&#34;https://github.com/c6-dev/VisualObjectivesFOSE&#34;&gt;Source code&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id=&#34;credits&#34;&gt;Credits:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/53378266&#34;&gt;yvileapsis&lt;/a&gt; ﻿for the original mod.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/4716447&#34;&gt;jazzisparis&lt;/a&gt;﻿, &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/1372985&#34;&gt;luthien&lt;/a&gt; ﻿and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/2232669&#34;&gt;lStewieAl&lt;/a&gt; ﻿for their work reverse-engineering New Vegas, which was essential for porting this mod.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/31254295&#34;&gt;carxt&lt;/a&gt; ﻿for their implementation of WorldToScreen.&lt;/li&gt;
-&lt;li&gt;lStewieAl ﻿(again) for their work on Command Extender and always being very helpful in general.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
     </item>
     
