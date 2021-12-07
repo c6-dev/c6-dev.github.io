@@ -6,7 +6,64 @@
     <description>Recent content in Mods on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/mods/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/mods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JohnnyGuitar NVSE</title>
+      <link>https://c6-dev.github.io/mods/johnnyguitar/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/mods/johnnyguitar/</guid>
+      <description>JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.
+Script Functions  150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more. Complete list of added functions with documentation and examples can be found on GECK Wiki.  New features  Runtime Editor IDs: GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions.</description>
+      <content>&lt;p&gt;JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.&lt;/p&gt;
+&lt;h4 id=&#34;script-functions&#34;&gt;Script Functions&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more.&lt;/li&gt;
+&lt;li&gt;Complete list of added functions with documentation and examples can be found on GECK Wiki.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;new-features&#34;&gt;New features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Runtime Editor IDs:&lt;/strong&gt; GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions. Additionally, Editor IDs are now displayed when you select a reference without a name in game console.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Map Marker Icons:&lt;/strong&gt; SetCustomMapMarkerIcon function lets you override hardcoded map marker icons with your own.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Level Up Menu Toggle:&lt;/strong&gt; ToggleLevelUpMenu and IsLevelUpMenuEnabled functions let you disable or delay level up menu display.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Event Framework:&lt;/strong&gt; JGCreateEvent and JGFreeEvent functions are exported to allow other plugin authors to take advantage of JohnnyGuitar&amp;rsquo;s event system. See headers in events folder in the source code for example usage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bugs-fixed&#34;&gt;Bugs fixed&lt;/h4&gt;
+&lt;p&gt;These fixes do not conflict with identical fixes in other NVSE plugins. Optional fixes enabled in JohnnyGuitar.ini are marked with *.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rapid Reload fix:&lt;/strong&gt; Reload and holster speed are now correctly recalculated after loading a save.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disintegrations Stat fix:&lt;/strong&gt; &amp;ldquo;Disintegrations&amp;rdquo; stat no longer increases upon entering a cell containing an ash pile.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Water Consumed fix:&lt;/strong&gt; &amp;ldquo;Water Consumed&amp;rdquo; stat now increments properly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Companion Dialogue fix:&lt;/strong&gt; Companions are no longer rendered mute after trading with them through dialogue.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VATS spread fix:&lt;/strong&gt; fNPCMaxGunWobbleAngle setting no longer affects player spread calculations in VATS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Animated Dialogue fix:&lt;/strong&gt; Dialogue topics with both animation and sound specified now correctly play animation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NPC Challenge fix&lt;/strong&gt;: NPCs no longer increment player challenges with &amp;ldquo;Use Item&amp;rdquo; or &amp;ldquo;Use Item from a List&amp;rdquo; type by equipping items.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inventory Ammo Display fix:&lt;/strong&gt; While hovering over a weapon that you don&amp;rsquo;t have a default ammo for, item card will use a different ammo type from the inventory for ammo count, damage and DPS calculation.&lt;/li&gt;
+&lt;li&gt;*&lt;strong&gt;3rd Person Camera fix:&lt;/strong&gt; After using Vanity camera, 3rd Person camera position correctly resets.&lt;/li&gt;
+&lt;li&gt;**Gun Spread Calculation fix: fWeapSkillReqPenalty setting is now used correctly.&lt;/li&gt;
+&lt;li&gt;*&lt;strong&gt;Fake fleeing fix:&lt;/strong&gt; NPCs will no longer flee from the player when [CAUTION] state is active but there are no enemies around.&lt;/li&gt;
+&lt;li&gt;*&lt;strong&gt;Item Stack Count fix:&lt;/strong&gt; Dropping a stack of more than 32000 items from inventory will no longer cause the item count to overflow into negatives, multiple item stacks will be dropped instead.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Weapon Biped Model Update fix&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Weapons that have backpacks and weapon mods will no longer create duplicates of the backpack when unequipped/equipped.&lt;/li&gt;
+&lt;li&gt;Hotkeyed weapons with weapon mods will no longer force play the reequip animation.&lt;/li&gt;
+&lt;li&gt;Loading a save with a weapon with weapon mods will no longer cause the projectile node to be misplaced.&lt;/li&gt;
+&lt;li&gt;Reequipping any apparel while having a weapon with mods equipped will no longer cause the weapon to reequip too.&lt;/li&gt;
+&lt;li&gt;Weapons with backpacks will no longer have the backpack still appear on the player or actor after using RemoveAllItems/RemoveAllTypedItems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Incidental Media Set fix&lt;/strong&gt;: Incidental-type media sets now work correctly in all DLCs and mods. They were working only in FalloutNV.esm and DeadMoney.esm before.&lt;/li&gt;
+&lt;li&gt;*&lt;strong&gt;Close Range Shooting Angle fix&lt;/strong&gt;: NPCs now properly turn towards the player before shooting while in close range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xNVSE/NVSE/releases/latest&#34;&gt;xNVSE 6.2.3 or newer&lt;/a&gt;﻿&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;downloadhttpsgithubcomcarxtjohnnyguitarnvsereleaseslatest&#34;&gt;&lt;a href=&#34;https://github.com/carxt/JohnnyGuitarNVSE/releases/latest&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Created and maintained by &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/2232669&#34;&gt;lStewieAl&lt;/a&gt;, c6, and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/31254295&#34;&gt;carxt&lt;/a&gt;, with contributions and help from &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/4716447&#34;&gt;jazzisparis&lt;/a&gt;, &lt;a href=&#34;https://www.nexusmods.com/skyrimspecialedition/users/4995023&#34;&gt;Nukem&lt;/a&gt; and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/54235967&#34;&gt;korri123&lt;/a&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Three-perk Bounty</title>
       <link>https://c6-dev.github.io/mods/three_perk_bounty/</link>
@@ -184,63 +241,6 @@ Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObje
 &lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/28073420&#34;&gt;TommInfinite&lt;/a&gt; ﻿for the MCM prior to 2.0 update&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/newvegas/users/1417653&#34;&gt;Xilandro&lt;/a&gt; for helping me learn XML&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>JohnnyGuitar NVSE</title>
-      <link>https://c6-dev.github.io/mods/johnnyguitar/</link>
-      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://c6-dev.github.io/mods/johnnyguitar/</guid>
-      <description>JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.
-Script Functions  150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more. Complete list of added functions with documentation and examples can be found on GECK Wiki.  New features  Runtime Editor IDs: GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions.</description>
-      <content>&lt;p&gt;JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.&lt;/p&gt;
-&lt;h4 id=&#34;script-functions&#34;&gt;Script Functions&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more.&lt;/li&gt;
-&lt;li&gt;Complete list of added functions with documentation and examples can be found on GECK Wiki.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;new-features&#34;&gt;New features&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Runtime Editor IDs:&lt;/strong&gt; GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions. Additionally, Editor IDs are now displayed when you select a reference without a name in game console.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Custom Map Marker Icons:&lt;/strong&gt; SetCustomMapMarkerIcon function lets you override hardcoded map marker icons with your own.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Level Up Menu Toggle:&lt;/strong&gt; ToggleLevelUpMenu and IsLevelUpMenuEnabled functions let you disable or delay level up menu display.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Event Framework:&lt;/strong&gt; JGCreateEvent and JGFreeEvent functions are exported to allow other plugin authors to take advantage of JohnnyGuitar&amp;rsquo;s event system. See headers in events folder in the source code for example usage.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;bugs-fixed&#34;&gt;Bugs fixed&lt;/h4&gt;
-&lt;p&gt;These fixes do not conflict with identical fixes in other NVSE plugins. Optional fixes enabled in JohnnyGuitar.ini are marked with *.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Rapid Reload fix:&lt;/strong&gt; Reload and holster speed are now correctly recalculated after loading a save.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Disintegrations Stat fix:&lt;/strong&gt; &amp;ldquo;Disintegrations&amp;rdquo; stat no longer increases upon entering a cell containing an ash pile.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Water Consumed fix:&lt;/strong&gt; &amp;ldquo;Water Consumed&amp;rdquo; stat now increments properly.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Companion Dialogue fix:&lt;/strong&gt; Companions are no longer rendered mute after trading with them through dialogue.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;VATS spread fix:&lt;/strong&gt; fNPCMaxGunWobbleAngle setting no longer affects player spread calculations in VATS.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Animated Dialogue fix:&lt;/strong&gt; Dialogue topics with both animation and sound specified now correctly play animation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;NPC Challenge fix&lt;/strong&gt;: NPCs no longer increment player challenges with &amp;ldquo;Use Item&amp;rdquo; or &amp;ldquo;Use Item from a List&amp;rdquo; type by equipping items.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Inventory Ammo Display fix:&lt;/strong&gt; While hovering over a weapon that you don&amp;rsquo;t have a default ammo for, item card will use a different ammo type from the inventory for ammo count, damage and DPS calculation.&lt;/li&gt;
-&lt;li&gt;*&lt;strong&gt;3rd Person Camera fix:&lt;/strong&gt; After using Vanity camera, 3rd Person camera position correctly resets.&lt;/li&gt;
-&lt;li&gt;**Gun Spread Calculation fix: fWeapSkillReqPenalty setting is now used correctly.&lt;/li&gt;
-&lt;li&gt;*&lt;strong&gt;Fake fleeing fix:&lt;/strong&gt; NPCs will no longer flee from the player when [CAUTION] state is active but there are no enemies around.&lt;/li&gt;
-&lt;li&gt;*&lt;strong&gt;Item Stack Count fix:&lt;/strong&gt; Dropping a stack of more than 32000 items from inventory will no longer cause the item count to overflow into negatives, multiple item stacks will be dropped instead.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Weapon Biped Model Update fix&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;Weapons that have backpacks and weapon mods will no longer create duplicates of the backpack when unequipped/equipped.&lt;/li&gt;
-&lt;li&gt;Hotkeyed weapons with weapon mods will no longer force play the reequip animation.&lt;/li&gt;
-&lt;li&gt;Loading a save with a weapon with weapon mods will no longer cause the projectile node to be misplaced.&lt;/li&gt;
-&lt;li&gt;Reequipping any apparel while having a weapon with mods equipped will no longer cause the weapon to reequip too.&lt;/li&gt;
-&lt;li&gt;Weapons with backpacks will no longer have the backpack still appear on the player or actor after using RemoveAllItems/RemoveAllTypedItems.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Incidental Media Set fix&lt;/strong&gt;: Incidental-type media sets now work correctly in all DLCs and mods. They were working only in FalloutNV.esm and DeadMoney.esm before.&lt;/li&gt;
-&lt;li&gt;*&lt;strong&gt;Close Range Shooting Angle fix&lt;/strong&gt;: NPCs now properly turn towards the player before shooting while in close range.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/xNVSE/NVSE/releases/latest&#34;&gt;xNVSE 6.2.3 or newer&lt;/a&gt;﻿&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;downloadhttpsgithubcomcarxtjohnnyguitarnvsereleaseslatest&#34;&gt;&lt;a href=&#34;https://github.com/carxt/JohnnyGuitarNVSE/releases/latest&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Created and maintained by &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/2232669&#34;&gt;lStewieAl&lt;/a&gt;, c6, and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/31254295&#34;&gt;carxt&lt;/a&gt;, with contributions and help from &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/4716447&#34;&gt;jazzisparis&lt;/a&gt;, &lt;a href=&#34;https://www.nexusmods.com/skyrimspecialedition/users/4995023&#34;&gt;Nukem&lt;/a&gt; and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/54235967&#34;&gt;korri123&lt;/a&gt;.&lt;/p&gt;
 </content>
     </item>
     
