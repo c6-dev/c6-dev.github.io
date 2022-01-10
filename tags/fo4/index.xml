@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fo4 on c6&#39;s stuff</title>
+    <link>https://c6-dev.github.io/tags/fo4/</link>
+    <description>Recent content in fo4 on c6&#39;s stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/tags/fo4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Force Locks</title>
+      <link>https://c6-dev.github.io/mods/force_locks/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/mods/force_locks/</guid>
+      <description>Adds an option to force-open locks with a random chance of success.
+My edit of BTA&amp;rsquo;s excellent Force Lock And Quick Hack. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.
+Force-open success is influenced by Perception and Strength stats.
+Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.</description>
+      <content>&lt;p&gt;Adds an option to force-open locks with a random chance of success.&lt;/p&gt;
+&lt;p&gt;My edit of BTA&amp;rsquo;s excellent &lt;a href=&#34;https://www.nexusmods.com/fallout4/mods/13019&#34;&gt;Force Lock And Quick Hack&lt;/a&gt;. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.&lt;/p&gt;
+&lt;p&gt;Force-open success is influenced by Perception and Strength stats.&lt;/p&gt;
+&lt;p&gt;Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.&lt;/p&gt;
+&lt;p&gt;Quick hacking has been removed, check out the original if you like this mechanic.&lt;/p&gt;
+&lt;h4 id=&#34;downloadmodforcelocks_107z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/ForceLocks_1.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;credits&#34;&gt;Credits:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/fallout4/users/11061498&#34;&gt;BradTheAmerican&lt;/a&gt; - original mod.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
