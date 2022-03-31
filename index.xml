@@ -8,32 +8,9 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Force Locks</title>
-      <link>https://c6-dev.github.io/mods/force_locks/</link>
-      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://c6-dev.github.io/mods/force_locks/</guid>
-      <description>Adds an option to force-open locks with a random chance of success.
-My edit of BTA&amp;rsquo;s excellent Force Lock And Quick Hack. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.
-Force-open success is influenced by Perception and Strength stats.
-Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.</description>
-      <content>&lt;p&gt;Adds an option to force-open locks with a random chance of success.&lt;/p&gt;
-&lt;p&gt;My edit of BTA&amp;rsquo;s excellent &lt;a href=&#34;https://www.nexusmods.com/fallout4/mods/13019&#34;&gt;Force Lock And Quick Hack&lt;/a&gt;. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.&lt;/p&gt;
-&lt;p&gt;Force-open success is influenced by Perception and Strength stats.&lt;/p&gt;
-&lt;p&gt;Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.&lt;/p&gt;
-&lt;p&gt;Quick hacking has been removed, check out the original if you like this mechanic.&lt;/p&gt;
-&lt;h4 id=&#34;downloadmodforcelocks_107z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/ForceLocks_1.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id=&#34;credits&#34;&gt;Credits:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/fallout4/users/11061498&#34;&gt;BradTheAmerican&lt;/a&gt; - original mod.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
       <title>JohnnyGuitar NVSE</title>
       <link>https://c6-dev.github.io/mods/johnnyguitar/</link>
-      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://c6-dev.github.io/mods/johnnyguitar/</guid>
       <description>JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.
@@ -84,6 +61,29 @@ Script Functions  150+ new functions and 10+ event handlers, including WorldToSc
 &lt;/ul&gt;
 &lt;h4 id=&#34;downloadhttpsgithubcomcarxtjohnnyguitarnvsereleaseslatest&#34;&gt;&lt;a href=&#34;https://github.com/carxt/JohnnyGuitarNVSE/releases/latest&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Created and maintained by &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/2232669&#34;&gt;lStewieAl&lt;/a&gt;, c6, and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/31254295&#34;&gt;carxt&lt;/a&gt;, with contributions and help from &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/4716447&#34;&gt;jazzisparis&lt;/a&gt;, &lt;a href=&#34;https://www.nexusmods.com/skyrimspecialedition/users/4995023&#34;&gt;Nukem&lt;/a&gt; and &lt;a href=&#34;https://www.nexusmods.com/newvegas/users/54235967&#34;&gt;korri123&lt;/a&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Force Locks</title>
+      <link>https://c6-dev.github.io/mods/force_locks/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/mods/force_locks/</guid>
+      <description>Adds an option to force-open locks with a random chance of success.
+My edit of BTA&amp;rsquo;s excellent Force Lock And Quick Hack. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.
+Force-open success is influenced by Perception and Strength stats.
+Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.</description>
+      <content>&lt;p&gt;Adds an option to force-open locks with a random chance of success.&lt;/p&gt;
+&lt;p&gt;My edit of BTA&amp;rsquo;s excellent &lt;a href=&#34;https://www.nexusmods.com/fallout4/mods/13019&#34;&gt;Force Lock And Quick Hack&lt;/a&gt;. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.&lt;/p&gt;
+&lt;p&gt;Force-open success is influenced by Perception and Strength stats.&lt;/p&gt;
+&lt;p&gt;Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.&lt;/p&gt;
+&lt;p&gt;Quick hacking has been removed, check out the original if you like this mechanic.&lt;/p&gt;
+&lt;h4 id=&#34;downloadmodforcelocks_107z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/ForceLocks_1.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;credits&#34;&gt;Credits:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/fallout4/users/11061498&#34;&gt;BradTheAmerican&lt;/a&gt; - original mod.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
