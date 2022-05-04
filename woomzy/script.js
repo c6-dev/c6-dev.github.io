@@ -4079,7 +4079,19 @@ const dictionary = [
 "zombie",
 "zoning",
 "zonked",
-"woomzy"
+"woomzy",
+"fonfig",
+"loomzy",
+"wallzy",
+"asorly",
+"seesix",
+"qolore",
+"vadeva",
+"incels",
+"seethe",
+"coping",
+"ratiod",
+"aussie",
 ]
 const WORD_LENGTH = 6
 const FLIP_ANIMATION_DURATION = 500
