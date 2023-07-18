@@ -5,7 +5,7 @@
     <link>https://c6-dev.github.io/mods/</link>
     <description>Recent content in Mods on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/mods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JohnnyGuitar NVSE</title>
@@ -14,7 +14,7 @@
       
       <guid>https://c6-dev.github.io/mods/johnnyguitar/</guid>
       <description>JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.
-Script Functions  150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more. Complete list of added functions with documentation and examples can be found on GECK Wiki.  New features  Runtime Editor IDs: GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions.</description>
+Script Functions 150+ new functions and 10+ event handlers, including WorldToScreen, SetVelEx, GetTimePlayed and more. Complete list of added functions with documentation and examples can be found on GECK Wiki. New features Runtime Editor IDs: GECK Editor IDs can now be used in game console (e.g. &amp;ldquo;player.additem weap10mmpistol&amp;rdquo;) and in scripts as dynamic string variables using GetEditorID and EditorIDToFormID functions.</description>
       <content>&lt;p&gt;JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.&lt;/p&gt;
 &lt;h4 id=&#34;script-functions&#34;&gt;Script Functions&lt;/h4&gt;
 &lt;ul&gt;
@@ -144,7 +144,7 @@ There is also an .ini that lets you completely exclude up to 5 perks from ever a
       <guid>https://c6-dev.github.io/mods/visual_objectives/</guid>
       <description>Adds visual 3D markers for current quest objectives.
 A remake of Just Visual Objectives by yvileapsis in a FOSE plugin with no performance impact.
-Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObjectives.ini file in Data/FOSE/Plugins.  Download Update 1.5 04.11.21 - fixed issues with markers not disappearing when they should, i.e. when controls are disabled. Fixed vanilla bug with custom map markers which didn&amp;rsquo;t work in many parts of the map.</description>
+Requirements: FOSE 1.3b2﻿ Command Extender Configuration: Edit F3VisualObjectives.ini file in Data/FOSE/Plugins. Download Update 1.5 04.11.21 - fixed issues with markers not disappearing when they should, i.e. when controls are disabled. Fixed vanilla bug with custom map markers which didn&amp;rsquo;t work in many parts of the map.</description>
       <content>&lt;p&gt;Adds visual 3D markers for current quest objectives.&lt;/p&gt;
 &lt;p&gt;A remake of &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/66901&#34;&gt;Just Visual Objectives&lt;/a&gt; by yvileapsis in a FOSE plugin with no performance impact.&lt;/p&gt;
 
@@ -180,7 +180,8 @@ Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObje
       
       <guid>https://c6-dev.github.io/mods/aidui/</guid>
       <description>Active Ingestibles Duration UI or AidUI adds widgets on HUD for consumed Aid items that display the time until their effects run out.
-div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img { height: 200px;object-fit: cover;flex-grow: 1;}     Includes MCM options for changing size of widgets, their position, and Bars mode.</description>
+Includes MCM options for changing size of widgets, their position, and Bars mode.
+Requirements: xNVSE﻿ UIO JIP LN NVSE﻿ JohnnyGuitar NVSE﻿ MCM Known issues: Some icons are off-centered - the mod uses vanilla inventory icons, i can&amp;rsquo;t prevent it on my side. Bars mode does not have this problem.</description>
       <content>&lt;p&gt;Active Ingestibles Duration UI or AidUI adds widgets on HUD for consumed Aid items that display the time until their effects run out.&lt;/p&gt;
 &lt;style&gt;
   div.gallery {
@@ -299,7 +300,7 @@ New Vegas version does not take up a slot in the load order and comes with an .i
       <guid>https://c6-dev.github.io/mods/yup/</guid>
       <description>Dynamically replaces every NPC in New Vegas with Easy Pete and their dialogue lines with &amp;ldquo;Yup&amp;rdquo;.
 Inspired by Get Fucked (NVSE) and GaryGaryGary.
-div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img { height: 200px;object-fit: cover;flex-grow: 1;}       Requirements:  xNVSE 6.0.6+﻿  Download Source code </description>
+Requirements: xNVSE 6.0.6+﻿ Download Source code </description>
       <content>&lt;p&gt;Dynamically replaces every NPC in New Vegas with Easy Pete and their dialogue lines with &amp;ldquo;Yup&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Inspired by &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/72619&#34;&gt;Get Fucked (NVSE)&lt;/a&gt; and &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/71944&#34;&gt;GaryGaryGary&lt;/a&gt;.&lt;/p&gt;
 &lt;style&gt;
@@ -371,7 +372,7 @@ Inspired by Get Fucked (NVSE) and GaryGaryGary.
       
       <guid>https://c6-dev.github.io/mods/rich_presence/</guid>
       <description>Integrates Discord Rich Presence in TES IV: Oblivion, displaying stats and your in-game actions on your Discord profile, such as:
- Which menu you&amp;rsquo;re currently in (paused, lockpicking, trading, sleeping, spellmaking, inventory, alchemy, enchanting, reading a book, or in main menu). Character name, race, location, level, health and amount of gold. Which character you are talking to or trading with. Time played.  Everything can be toggled by setting the relevant settings to 0 (off) or 1 (on) in discordrpc_obse.</description>
+Which menu you&amp;rsquo;re currently in (paused, lockpicking, trading, sleeping, spellmaking, inventory, alchemy, enchanting, reading a book, or in main menu). Character name, race, location, level, health and amount of gold. Which character you are talking to or trading with. Time played. Everything can be toggled by setting the relevant settings to 0 (off) or 1 (on) in discordrpc_obse.</description>
       <content>&lt;p&gt;Integrates Discord Rich Presence in TES IV: Oblivion, displaying stats and your in-game actions on your Discord profile, such as:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Which menu you&amp;rsquo;re currently in (paused, lockpicking, trading, sleeping, spellmaking, inventory, alchemy, enchanting, reading a book, or in main menu).&lt;/li&gt;
@@ -418,7 +419,7 @@ Inspired by Get Fucked (NVSE) and GaryGaryGary.
       
       <guid>https://c6-dev.github.io/mods/tetris/</guid>
       <description>Feature-complete implementation of Tetris in New Vegas, playable in your Pip-Boy.
-div.gallery {display: flex;flex-wrap: wrap;}div.gallery a {flex-grow: 1;object-fit: cover;margin: 2px;display: flex;}div.gallery a img { height: 200px;object-fit: cover;flex-grow: 1;}     Requirements:  xNVSE 6.2.4 or newer﻿ UIO JIP LN NVSE﻿ JohnnyGuitar NVSE﻿  How to play: Pick up a cartridge on a table near a terminal in Prospector Saloon in Goodsprings.</description>
+Requirements: xNVSE 6.2.4 or newer﻿ UIO JIP LN NVSE﻿ JohnnyGuitar NVSE﻿ How to play: Pick up a cartridge on a table near a terminal in Prospector Saloon in Goodsprings. You can also use a console command player.additem XX00442A, where XX is mod&amp;rsquo;s index in the load order. After that, just click on the Tetris in the Misc tab of your inventory.</description>
       <content>&lt;p&gt;Feature-complete implementation of Tetris in New Vegas, playable in your Pip-Boy.&lt;/p&gt;
 &lt;style&gt;
   div.gallery {

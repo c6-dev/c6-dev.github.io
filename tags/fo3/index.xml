@@ -5,7 +5,7 @@
     <link>https://c6-dev.github.io/tags/fo3/</link>
     <description>Recent content in fo3 on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/tags/fo3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visual Objectives</title>
@@ -15,7 +15,7 @@
       <guid>https://c6-dev.github.io/mods/visual_objectives/</guid>
       <description>Adds visual 3D markers for current quest objectives.
 A remake of Just Visual Objectives by yvileapsis in a FOSE plugin with no performance impact.
-Requirements:  FOSE 1.3b2﻿ Command Extender  Configuration:  Edit F3VisualObjectives.ini file in Data/FOSE/Plugins.  Download Update 1.5 04.11.21 - fixed issues with markers not disappearing when they should, i.e. when controls are disabled. Fixed vanilla bug with custom map markers which didn&amp;rsquo;t work in many parts of the map.</description>
+Requirements: FOSE 1.3b2﻿ Command Extender Configuration: Edit F3VisualObjectives.ini file in Data/FOSE/Plugins. Download Update 1.5 04.11.21 - fixed issues with markers not disappearing when they should, i.e. when controls are disabled. Fixed vanilla bug with custom map markers which didn&amp;rsquo;t work in many parts of the map.</description>
       <content>&lt;p&gt;Adds visual 3D markers for current quest objectives.&lt;/p&gt;
 &lt;p&gt;A remake of &lt;a href=&#34;https://www.nexusmods.com/newvegas/mods/66901&#34;&gt;Just Visual Objectives&lt;/a&gt; by yvileapsis in a FOSE plugin with no performance impact.&lt;/p&gt;
 
