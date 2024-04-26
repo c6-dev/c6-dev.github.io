@@ -8,9 +8,32 @@
     <language>en</language>
     <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Force Locks</title>
+      <link>https://c6-dev.github.io/mods/force_locks/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/mods/force_locks/</guid>
+      <description>Adds an option to force-open locks with a random chance of success.
+My edit of BTA&amp;rsquo;s excellent Force Lock And Quick Hack. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.
+Force-open success is influenced by Perception and Strength stats.
+Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.</description>
+      <content>&lt;p&gt;Adds an option to force-open locks with a random chance of success.&lt;/p&gt;
+&lt;p&gt;My edit of BTA&amp;rsquo;s excellent &lt;a href=&#34;https://www.nexusmods.com/fallout4/mods/13019&#34;&gt;Force Lock And Quick Hack&lt;/a&gt;. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.&lt;/p&gt;
+&lt;p&gt;Force-open success is influenced by Perception and Strength stats.&lt;/p&gt;
+&lt;p&gt;Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.&lt;/p&gt;
+&lt;p&gt;Quick hacking has been removed, check out the original if you like this mechanic.&lt;/p&gt;
+&lt;h4 id=&#34;downloadmodforcelocks_107z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/ForceLocks_1.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;credits&#34;&gt;Credits:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/fallout4/users/11061498&#34;&gt;BradTheAmerican&lt;/a&gt; - original mod.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>JohnnyGuitar NVSE</title>
       <link>https://c6-dev.github.io/mods/johnnyguitar/</link>
-      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://c6-dev.github.io/mods/johnnyguitar/</guid>
       <description>JohnnyGuitar NVSE is an engine plugin for New Vegas that adds new script functions, features and bug fixes.
@@ -65,29 +88,6 @@ Script Functions 150+ new functions and 10+ event handlers, including WorldToScr
     </item>
     
     <item>
-      <title>Force Locks</title>
-      <link>https://c6-dev.github.io/mods/force_locks/</link>
-      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://c6-dev.github.io/mods/force_locks/</guid>
-      <description>Adds an option to force-open locks with a random chance of success.
-My edit of BTA&amp;rsquo;s excellent Force Lock And Quick Hack. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.
-Force-open success is influenced by Perception and Strength stats.
-Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.</description>
-      <content>&lt;p&gt;Adds an option to force-open locks with a random chance of success.&lt;/p&gt;
-&lt;p&gt;My edit of BTA&amp;rsquo;s excellent &lt;a href=&#34;https://www.nexusmods.com/fallout4/mods/13019&#34;&gt;Force Lock And Quick Hack&lt;/a&gt;. In my variant you only have one attempt to force-open each lock, more similar to how New Vegas implements this.&lt;/p&gt;
-&lt;p&gt;Force-open success is influenced by Perception and Strength stats.&lt;/p&gt;
-&lt;p&gt;Force-open failure breaks the bobby pin and not the lock, since Fallout 4 wasn&amp;rsquo;t really designed with broken locks in mind.&lt;/p&gt;
-&lt;p&gt;Quick hacking has been removed, check out the original if you like this mechanic.&lt;/p&gt;
-&lt;h4 id=&#34;downloadmodforcelocks_107z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/ForceLocks_1.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id=&#34;credits&#34;&gt;Credits:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nexusmods.com/fallout4/users/11061498&#34;&gt;BradTheAmerican&lt;/a&gt; - original mod.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
       <title>Three-perk Bounty</title>
       <link>https://c6-dev.github.io/mods/three_perk_bounty/</link>
       <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
@@ -104,9 +104,12 @@ Upon level up you will be presented with a choice of three randomly selected per
 There is also an .ini that lets you completely exclude up to 5 perks from ever appearing.&lt;/p&gt;
 &lt;p&gt;Comes with full controller support, as shown in the video below.&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/neE_L16ALno&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;Three-perk Bounty&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/neE_L16ALno?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Three-perk Bounty&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h4 id=&#34;controls&#34;&gt;Controls:&lt;/h4&gt;
 &lt;ul&gt;
@@ -233,9 +236,12 @@ Requirements: xNVSE﻿ UIO JIP LN NVSE﻿ JohnnyGuitar NVSE﻿ MCM Known issues:
     &lt;/div&gt;
 &lt;p&gt;Includes MCM options for changing size of widgets, their position, and Bars mode.&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/E6ylPog6usk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;AidUI&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/E6ylPog6usk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;AidUI&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
 &lt;ul&gt;
@@ -352,9 +358,12 @@ Requirements: xNVSE 6.0.6+﻿ Download Source code </description>
 	
     &lt;/div&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/Rj_l6YuWDkk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;Easy Pete&amp;#39;s therapy session&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Rj_l6YuWDkk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Easy Pete&#39;s therapy session&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;
 &lt;ul&gt;
@@ -482,9 +491,12 @@ Requirements: xNVSE 6.2.4 or newer﻿ UIO JIP LN NVSE﻿ JohnnyGuitar NVSE﻿ Ho
 &lt;p&gt;&lt;strong&gt;Xbox controller bindings are:&lt;/strong&gt; D-pad Left/Right/Down to move the block, D-pad Up to rotate the block, Right Thumbstick to pause, and X to quit.&lt;/p&gt;
 &lt;p&gt;Blocks fall down every 900 ms by default, speed increases by 10% every level.&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/uIkpipFozFY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;Tetris&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/uIkpipFozFY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Tetris&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h4 id=&#34;downloadmodtetris_207z&#34;&gt;&lt;a href=&#34;https://c6-dev.github.io/mod/Tetris_2.0.7z&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Update 2.0 28.09.21 - rewrote scripts using latest xNVSE features, optimized things here and there.&lt;/strong&gt;&lt;/p&gt;

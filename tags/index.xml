@@ -6,19 +6,9 @@
     <description>Recent content in Tags on c6&#39;s stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://c6-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>fnv</title>
-      <link>https://c6-dev.github.io/tags/fnv/</link>
-      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://c6-dev.github.io/tags/fnv/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>fo4</title>
+      <title>Fo4</title>
       <link>https://c6-dev.github.io/tags/fo4/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -28,7 +18,17 @@
     </item>
     
     <item>
-      <title>fo3</title>
+      <title>Fnv</title>
+      <link>https://c6-dev.github.io/tags/fnv/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://c6-dev.github.io/tags/fnv/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Fo3</title>
       <link>https://c6-dev.github.io/tags/fo3/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -38,7 +38,7 @@
     </item>
     
     <item>
-      <title>tes</title>
+      <title>Tes</title>
       <link>https://c6-dev.github.io/tags/tes/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
       
